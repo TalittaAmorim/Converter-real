@@ -13,9 +13,6 @@ inputdolar.addEventListener("blur", () => {
 })
 
 
-
-
-
 function formatarNumero(valor){
     let valorFixado = fixarValor(valor)
     let options = {
@@ -35,13 +32,17 @@ function fixarValor(valor){
 }
 
 
-asyc
 
-function converter (type){
+
+async function converter (type){
     if(type == "usd-to-brl"){
 
     }
     if(type == "brl-to-usd"){
 
     }
+}
+
+async function pegarCotacao (url){
+
 }
